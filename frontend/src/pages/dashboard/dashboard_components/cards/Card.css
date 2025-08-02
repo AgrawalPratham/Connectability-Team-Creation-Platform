@@ -1,0 +1,54 @@
+
+/* body{
+  background-color: #f8f9fa;
+} */
+
+@font-face {
+  font-family: bold;
+  src: url(../../../../fonts/helvetica/Helvetica-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: regular;
+  src: url(../../../../fonts/helvetica/Helvetica.ttf);
+}
+.cardboundary{
+  background-color: #ffffff;
+  height: 254px;
+  width: 673px;
+  display: flex;
+  padding: 1.3%;
+  padding-bottom: 2%;
+  
+  border-radius: 15px;
+  box-shadow: 2px 2px rgb(188, 185, 185);
+
+}
+.cardphoto{
+  height: 222px;
+  width: 222px;
+  /* overflow: hidden; */
+}
+.cardphoto img{
+  height: 100%;
+  /* width: 100%; */
+  object-fit:contain;
+  border-radius: 12px;
+}
+.cardcontent{
+  margin-top: 2%;
+  width: 430px;
+
+}
+.cardheading{
+  font-family: bold;
+  font-size: 18px;
+  padding-bottom: 2%;
+}
+.cardtext{
+  font-family: regular;
+  font-size: 14px;
+  padding-right: 15%;
+  line-height: 150%;
+  color: #A0AEC0;
+}

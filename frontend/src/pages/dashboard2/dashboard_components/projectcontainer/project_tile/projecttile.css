@@ -1,0 +1,29 @@
+.projecttilebox{
+    padding-top: 4%;
+    height: 280px;
+    width: 343px;
+    display: flexbox;
+}
+.projectphoto{
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+.projectphoto img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.projectcontent{
+    padding-left: 3%;
+}
+.projecttilenum{
+    padding-top: 3%;
+}
+.projecttileheading{
+    padding-bottom: 2%;
+}
+.projecttiledesc{
+    padding-bottom: 2%;
+}

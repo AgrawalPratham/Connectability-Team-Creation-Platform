@@ -1,0 +1,43 @@
+.projecttilebox{
+    padding-top: 2%;
+    height: auto;
+    width: 355px;
+    display: flexbox;
+    margin-bottom: 20px;
+
+    padding: 10px;
+}
+.projectphoto{
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+
+    height: 190px;
+    width: 340px;
+    background-color: #A0AEC0;
+    
+}
+.projectphoto img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.projectcontent{
+    padding-left: 3%;
+}
+.projecttilenum{
+    padding-top: 2%;
+    font-size: 0.8rem;
+    color: #A0AEC0;    
+}
+.projecttileheading{
+    padding-bottom: 2%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.projecttiledesc{
+    padding-bottom: 2%;
+    font-size: 0.8rem;
+    color: #A0AEC0;
+    word-break: break-all;
+}

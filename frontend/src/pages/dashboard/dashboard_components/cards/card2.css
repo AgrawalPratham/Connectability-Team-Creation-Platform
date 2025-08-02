@@ -1,0 +1,19 @@
+
+.imagebox{
+    display: flex;
+    height: 254px;
+    width: 451px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px rgb(188, 185, 185);
+}
+.card2image{
+    height: 222px;
+    width: 427px;
+}
+.card2image img{
+    height: 100%;
+    object-fit: cover;
+}

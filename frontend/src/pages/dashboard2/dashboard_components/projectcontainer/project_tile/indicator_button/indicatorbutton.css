@@ -1,0 +1,35 @@
+@font-face {
+    font-family: bold;
+    src: url(../../../../../../fonts/helvetica/Helvetica-Bold.ttf);
+    font-weight: bold;
+}
+
+.indicatorbox {
+    background-color: #80d0c7;
+    height: 27px;
+    width: 137px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.indicatortext {
+    color: white;
+    font-family: bold;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.finished {
+    background-color: white;
+    border: 1px solid #4FD1C5;
+}
+
+.finished .indicatortext {
+    color: #4FD1C5;
+}

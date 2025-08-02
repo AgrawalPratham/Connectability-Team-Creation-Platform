@@ -1,0 +1,44 @@
+.dashboard {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    display: flex;
+    min-height: 100vh; /* Ensures the sidebar spans the viewport */
+}
+
+
+.sidebar {
+    flex: 0 0 250px;
+    
+}
+
+.main-content {
+    padding-top: 20px; /* Adds top padding to prevent upward shift */
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.projects {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.help-section {
+    position: absolute;
+    
+    margin-left: 70%;
+    margin-top: 50%;
+}

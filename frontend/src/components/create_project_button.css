@@ -1,0 +1,65 @@
+@font-face {
+    font-family: bold;
+    src: url(../fonts/helvetica/Helvetica-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: regular;
+    src: url(../fonts/helvetica/Helvetica.ttf);
+}
+
+.outerbox {
+    border-radius: 15px;
+    display: flexbox;
+    align-items: center;
+    width: fit-content;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.textcontentproject {
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-bottom: 30px;
+}
+.Projecttext {
+    font-family: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.bottomtext {
+    font-family: regular;
+    font-size: 14px;
+    color: #A0AEC0;
+    margin-top: 9px;
+}
+.createnewproject {
+    height: 280px;
+    width: 347px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E0E1E2;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    text-decoration: none; 
+}
+.createnewproject:hover {
+    background-color: #f0f4f8; 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.plusimage img {
+    width: 50px; /* Adjust size if needed */
+    height: 50px;
+}
+.testcreatenewproject {
+    font-family: bold;
+    font-size: 18px;
+    color: #718096;
+    margin-top: 10px; 
+}
+.createnewproject-link {
+    text-decoration: none;
+}

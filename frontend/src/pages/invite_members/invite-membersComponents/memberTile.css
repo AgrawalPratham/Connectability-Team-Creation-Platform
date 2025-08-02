@@ -1,0 +1,108 @@
+.individual-member-tile {
+    height: auto;
+    width: fit-content;
+    /* max-width: 50%; */
+    max-width: 350px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 200, 200);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.individual-member-image {
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(227, 222, 222);
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.individual-member-image>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.individual-member-details {
+    max-width: 70%;
+    /* background-color: green; */
+    /* padding: 10px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 0px 15px;
+}
+.individual-member-details>h3{
+    margin-top: 0px;
+    font-size:1.2rem;
+}
+.member-skill-list{
+    height:auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* background-color: red; */
+}
+.member-skill{
+    height: fit-content;
+    width: fit-content;
+    padding: 8px 10px;
+    font-size: 1.1rem;
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid #4FD1C5;
+}
+.member-links{
+    height:auto;
+    width:100%;
+    /* background-color: purple; */
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.member-link{
+    margin: 0px;
+    height:30px;
+    width: 30px;
+    /* background-color: orange; */
+}
+.member-link>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.invite-member-button {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    padding: 2px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invite-member-button>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* Ensures the image fills the button */
+    border-radius: 50%;
+    /* Optional: makes the image circular */
+}
